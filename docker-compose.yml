@@ -6,12 +6,9 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     ports:
-      - "3000"
+      - "3000:3000"
     environment:
+      NODE_ENV: production
       NEXT_TELEMETRY_DISABLED: "1"
-      NODE_ENV: development
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
-    command: npm run dev
+    command: npm run start
     restart: unless-stopped
