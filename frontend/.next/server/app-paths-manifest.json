@@ -1,10 +1,1 @@
-{
-  "/page": "app/page.js",
-  "/home/layout2/page": "app/home/layout2/page.js",
-  "/categories/layout3/page": "app/categories/layout3/page.js",
-  "/home/layout1/page": "app/home/layout1/page.js",
-  "/about/page": "app/about/page.js",
-  "/home/layout3/page": "app/home/layout3/page.js",
-  "/categories/layout1/page": "app/categories/layout1/page.js",
-  "/categories/layout2/page": "app/categories/layout2/page.js"
-}
+{}
