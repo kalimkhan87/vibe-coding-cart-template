@@ -22,7 +22,7 @@ export default function Footer(){
           </div>
         </div>
       </div>
-      <div className="bg-gray-200 text-center py-4 text-sm">© {new Date().year || new Date().getFullYear()} ShopWave</div>
+  <div className="bg-gray-200 text-center py-4 text-sm">© {new Date().getFullYear()} ShopWave</div>
     </footer>
   );
 }
