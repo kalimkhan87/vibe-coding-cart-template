@@ -1,0 +1,21 @@
+version: "1.0"
+
+primary:
+  service: frontend
+  port: 3000
+
+routes: []
+
+environment:
+  frontend:
+    - name: "NODE_ENV"
+      value: "production"
+    - name: "NEXT_TELEMETRY_DISABLED"
+      value: "1"
+
+service_overrides:
+  frontend:
+    command: ["sh", "-c", "npm run build && npm run start"]
+
+preview:
+  idle_timeout: 7200
